@@ -470,3 +470,29 @@ A navigation property allows an entity to access related data from another entit
 
 **The `UseExceptionHandler()` middleware provides centralized exception handling so that application errors can be handled consistently instead of writing error-handling logic in every controller.**
 
+
+
+**---**
+
+
+
+**### Question 19**
+
+
+
+**\*\*Question:\*\***  
+
+**If a user requests `/Student/999` and the student does not exist, what HTTP status should be returned?**
+
+
+
+**\*\*Answer:\*\***  
+
+**B. 404 Not Found**
+
+
+
+**\*\*Explanation:\*\***  
+
+**A 404 Not Found response indicates that the requested resource, such as a student record, could not be found.**
+
