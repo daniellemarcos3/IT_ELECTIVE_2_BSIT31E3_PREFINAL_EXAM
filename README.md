@@ -1,190 +1,191 @@
-\# IT ELECTIVE 2 - PREFINAL EXAM
+# 🎓 IT ELECTIVE 2 | PREFINAL EXAM
 
+### 💻 Web System and Technologies
 
+> **An interactive examination system built with ASP.NET Core MVC**
 
-\## Web System and Technologies
+---
 
+## 👩‍💻 STUDENT PROFILE
 
+| 👤 Student                    | 🎓 Program | 🏫 Section   |
+| ----------------------------- | ---------- | ------------ |
+| **Danielle Allyne O. Marcos** | **BSIT**   | **BSIT31E3** |
 
-\*\*Student Name:\*\* Danielle Allyne O. Marcos  
+---
 
-\*\*Class:\*\* BSIT  
+## 🚀 ABOUT THE PROJECT
 
-\*\*Section:\*\* BSIT31E3  
+**IT Elective 2 Prefinal Exam** is a creative and interactive web-based examination system developed using **ASP.NET Core MVC**.
 
+The application is designed to provide a more engaging examination experience through interactive questions, instant feedback, progress tracking, explanations, and automatic score calculation.
 
+### 🎯 Examination Overview
 
-\---
+* 📝 **20** Multiple-Choice Questions
+* 🔤 **A-D** Answer Choices
+* 📊 Real-Time Progress Tracking
+* ⚡ Instant Answer Feedback
+* 💡 Answer Explanations
+* 🏆 Automatic Score Calculation
+* 📈 Final Percentage
+* 🔄 Retake Examination
+* 📱 Responsive Interface
 
+---
 
+## 🧠 MAIN TOPICS
 
-\## About the Project
+The examination focuses on important concepts in web application development:
 
+| #  | Topic                                  |
+| -- | -------------------------------------- |
+| 01 | 🗄️ Entity Framework Core              |
+| 02 | 🔄 Database-First Approach             |
+| 03 | 🔗 ERD & Relationships                 |
+| 04 | 🖥️ Razor Views & ViewModels           |
+| 05 | ✅ Client-Side & Server-Side Validation |
+| 06 | 📦 CRUD & Data Integrity               |
+| 07 | 🛡️ Exception Handling                 |
+| 08 | 🌐 HTTP Status Codes                   |
 
+---
 
-This project is an interactive \*\*IT Elective 2 Prefinal Examination\*\* developed using ASP.NET Core MVC.
+## ✨ KEY FEATURES
 
+### 📝 Interactive Examination
 
+Answer **20 multiple-choice questions** using four choices from **A to D**.
 
-The system contains \*\*20 multiple-choice questions\*\* related to Web System and Technologies. Each question provides four choices from A to D.
+### 📊 Progress Tracking
 
+A dynamic progress bar shows how far you are in the examination.
 
+### 🎯 Answer Selection
 
-The examination includes:
+Students can select and change their answer before submitting.
 
+### ✅ Instant Feedback
 
+The system immediately identifies whether the submitted answer is **correct or incorrect**.
 
-\- Interactive multiple-choice questions
+### 💡 Answer Explanation
 
-\- Answer selection
+Every question provides an explanation to help students understand the correct answer.
 
-\- Correct and incorrect answer feedback
+### 🏆 Automatic Scoring
 
-\- Answer explanations
+The system automatically calculates the student's score while taking the examination.
 
-\- Question progress indicator
+### 📈 Final Score
 
-\- Live score tracking
+After completing all questions, the system displays the:
 
-\- Final score and percentage
+**Score → Percentage → Completion Message**
 
-\- Retake examination feature
-
-\- Creative and responsive user interface
-
-
-
-\---
-
-
-
-\## Technologies Used
-
-
-
-\- ASP.NET Core MVC
-
-\- C#
-
-\- .NET 8.0
-
-\- Razor Views
-
-\- HTML
-
-\- CSS
-
-\- Bootstrap
-
-\- JavaScript
-
-
-
-\---
-
-
-
-\## Main Topics
-
-
-
-The examination covers the following topics:
-
-
-
-1\. Entity Framework Core
-
-2\. Database-First Approach
-
-3\. ERD and Relationships
-
-4\. Razor Views and ViewModels
-
-5\. Client-Side and Server-Side Validation
-
-6\. CRUD and Data Integrity
-
-7\. Exception Handling
-
-8\. HTTP Status Codes
-
-
-
-\---
-
-
-
-\## Features
-
-
-
-\### 📝 Interactive Examination
-
-Students can answer 20 multiple-choice questions with A-D choices.
-
-
-
-\### 📊 Progress Tracking
-
-A progress bar shows the student's current position in the examination.
-
-
-
-\### ✅ Instant Feedback
-
-After submitting an answer, the system displays whether the answer is correct or incorrect.
-
-
-
-\### 💡 Answer Explanation
-
-Each question provides an explanation of the correct answer.
-
-
-
-\### 🏆 Final Score
-
-After completing all 20 questions, the system displays the total score and percentage.
-
-
-
-\### 🔄 Retake Exam
+### 🔄 Retake Examination
 
 Students can restart the examination and try again.
 
+---
 
-
-\---
-
-
-
-\## Project Structure
-
-
+## 🛠️ TECHNOLOGIES USED
 
 ```text
+ASP.NET Core MVC
+C#
+.NET 8.0
+Razor Views
+HTML5
+CSS3
+Bootstrap
+JavaScript
+```
 
-IT\_ELECTIVE\_2\_BSIT31E3\_PREFINAL\_EXAM
+---
 
+## 🗂️ PROJECT STRUCTURE
+
+```text
+IT_ELECTIVE_2_BSIT31E3_PREFINAL_EXAM
 │
-
-├── Controllers
-
-├── Models
-
-├── Views
-
-│   ├── Home
-
-│   └── Exam
-
+├── 📁 Controllers
 │
+├── 📁 Models
+│
+├── 📁 Views
+│   ├── 📁 Home
+│   └── 📁 Exam
+│
+├── 📁 wwwroot
+│
+├── 📄 Program.cs
+├── 📄 appsettings.json
+└── 📄 README.md
+```
 
-├── wwwroot
+---
 
-├── Program.cs
+## 💾 DATABASE
 
-├── appsettings.json
+This project **does not use a database**.
 
-└── README.md
+The examination questions, choices, correct answers, and explanations are stored directly within the application using **JavaScript**.
 
+---
+
+## 🎨 USER EXPERIENCE
+
+The system was designed with a **creative, clean, and responsive interface** instead of a plain examination form.
+
+The interface includes:
+
+```text
+🏠 Landing Page
+      ↓
+📚 Exam Introduction
+      ↓
+📝 Question & Answer Selection
+      ↓
+✅ Answer Feedback
+      ↓
+💡 Explanation
+      ↓
+➡️ Next Question
+      ↓
+🏆 Final Score
+      ↓
+🔄 Retake Exam
+```
+
+---
+
+## 🎯 PROJECT GOAL
+
+The main goal of this project is to demonstrate the practical application of:
+
+**ASP.NET Core MVC + C# + Razor Views + HTML + CSS + JavaScript**
+
+while creating a functional and engaging web-based examination system.
+
+---
+
+## 👩‍💻 DEVELOPER
+
+### **Danielle Allyne O. Marcos**
+
+**BSIT31E3**
+
+> *“Learn. Build. Improve.”* 💻✨
+
+---
+
+## 📌 PROJECT STATUS
+
+🟢 **COMPLETED**
+
+**IT Elective 2 | Prefinal Examination**
+
+---
+
+⭐ **Thank you for checking out this project!**
