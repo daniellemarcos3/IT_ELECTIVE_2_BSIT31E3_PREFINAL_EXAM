@@ -158,3 +158,29 @@ B. appsettings.json
 
 The connection string is commonly placed in appsettings.json so that database connection settings can be configured separately from the application code.
 
+
+
+\---
+
+
+
+\### Question 7
+
+
+
+\*\*Question:\*\*  
+
+A Student belongs to one Section, while a Section can have many Students. What type of relationship is this?
+
+
+
+\*\*Answer:\*\*  
+
+B. One-to-Many
+
+
+
+\*\*Explanation:\*\*  
+
+One Section can have many Students, while each Student belongs to only one Section. This is a One-to-Many relationship.
+
