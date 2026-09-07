@@ -444,3 +444,29 @@ A navigation property allows an entity to access related data from another entit
 
 **The `try...catch` statement allows the application to handle errors or exceptions gracefully instead of causing the application to stop unexpectedly.**
 
+
+
+**---**
+
+
+
+**### Question 18**
+
+
+
+**\*\*Question:\*\***  
+
+**Which method is commonly used to configure centralized exception handling middleware in ASP.NET Core?**
+
+
+
+**\*\*Answer:\*\***  
+
+**B. UseExceptionHandler()**
+
+
+
+**\*\*Explanation:\*\***  
+
+**The `UseExceptionHandler()` middleware provides centralized exception handling so that application errors can be handled consistently instead of writing error-handling logic in every controller.**
+
