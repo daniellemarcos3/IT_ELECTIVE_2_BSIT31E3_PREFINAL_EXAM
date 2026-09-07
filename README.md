@@ -188,4 +188,6 @@ while creating a functional and engaging web-based examination system.
 
 ---
 
+<<<<<<< HEAD
 ⭐ **Thank you for checking out this project!**
+
