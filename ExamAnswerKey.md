@@ -288,3 +288,29 @@ A navigation property allows an entity to access related data from another entit
 
 **A ViewModel contains the data and information that a specific view needs. It helps organize and present data without directly exposing the entire entity model.**
 
+
+
+**---**
+
+
+
+**### Question 12**
+
+
+
+**\*\*Question:\*\***  
+
+**What does `.Include(s => s.Section)` do in an EF Core query?**
+
+
+
+**\*\*Answer:\*\***  
+
+**A. It loads the related Section navigation property**
+
+
+
+**\*\*Explanation:\*\***  
+
+**The `.Include()` method tells Entity Framework Core to load the related Section data together with the Student records.**
+
