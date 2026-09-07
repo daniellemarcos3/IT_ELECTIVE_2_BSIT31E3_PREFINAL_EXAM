@@ -187,7 +187,5 @@ while creating a functional and engaging web-based examination system.
 **IT Elective 2 | Prefinal Examination**
 
 ---
-
-<<<<<<< HEAD
 ⭐ **Thank you for checking out this project!**
 
