@@ -366,3 +366,29 @@ A navigation property allows an entity to access related data from another entit
 
 **Client-side validation happens in the user's browser and can be disabled or bypassed. Server-side validation ensures that data is properly validated before it is processed or saved by the application.**
 
+
+
+**---**
+
+
+
+**### Question 15**
+
+
+
+**\*\*Question:\*\***  
+
+**Which field should be unique to prevent duplicate student records?**
+
+
+
+**\*\*Answer:\*\***  
+
+**B. Student Number**
+
+
+
+**\*\*Explanation:\*\***  
+
+**The Student Number should be unique because it serves as a distinct identifier for each student and prevents duplicate student records.**
+
