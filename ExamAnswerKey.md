@@ -236,3 +236,29 @@ B. A property that represents a relationship to another entity
 
 A navigation property allows an entity to access related data from another entity. For example, a Student entity can have a Section navigation property to represent its relationship with a Section.
 
+
+
+**---**
+
+
+
+**### Question 10**
+
+
+
+**\*\*Question:\*\***  
+
+**What does the `.Include()` method do in Entity Framework Core?**
+
+
+
+**\*\*Answer:\*\***  
+
+**B. It loads related data from another entity**
+
+
+
+**\*\*Explanation:\*\***  
+
+**The `.Include()` method is used to load related navigation properties together with the main entity. For example, it can load the Section data together with Students.**
+
