@@ -34,21 +34,45 @@ A database stores data persistently, so information remains available even after
 
 
 
-\*\*Question:\*\*  
+\*\*Question:\*\*
 
 Which approach is being used when an existing database is used to generate EF Core entity classes?
 
 
 
-\*\*Answer:\*\*  
+\*\*Answer:\*\*
 
 B. Database-First
 
 
 
-\*\*Explanation:\*\*  
+\*\*Explanation:\*\*
 
 Database-First starts with an existing database and generates EF Core entity classes and a DbContext from it.
 
 
+
+\---
+
+
+
+\### Question 3
+
+
+
+\*\*Question:\*\*  
+
+What is the primary purpose of Entity Framework Core?
+
+
+
+\*\*Answer:\*\*  
+
+C. To map objects in code to relational database data.
+
+
+
+\*\*Explanation:\*\*  
+
+Entity Framework Core is an ORM that allows .NET objects and classes to work with relational database data.
 
