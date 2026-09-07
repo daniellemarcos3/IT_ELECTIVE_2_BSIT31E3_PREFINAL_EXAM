@@ -132,3 +132,29 @@ C. EF Core models and a DbContext from an existing database
 
 The Scaffold-DbContext command reads the existing database structure and automatically generates the entity model classes and DbContext needed by EF Core.
 
+
+
+\---
+
+
+
+\### Question 6
+
+
+
+\*\*Question:\*\*  
+
+Where is the connection string commonly stored in an ASP.NET Core MVC application?
+
+
+
+\*\*Answer:\*\*  
+
+B. appsettings.json
+
+
+
+\*\*Explanation:\*\*  
+
+The connection string is commonly placed in appsettings.json so that database connection settings can be configured separately from the application code.
+
