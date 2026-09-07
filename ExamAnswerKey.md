@@ -392,3 +392,29 @@ A navigation property allows an entity to access related data from another entit
 
 **The Student Number should be unique because it serves as a distinct identifier for each student and prevents duplicate student records.**
 
+
+
+**---**
+
+
+
+**### Question 16**
+
+
+
+**\*\*Question:\*\***  
+
+**What is the purpose of a unique constraint in the database?**
+
+
+
+**\*\*Answer:\*\***  
+
+**A. It protects data integrity by preventing duplicate values**
+
+
+
+**\*\*Explanation:\*\***  
+
+**A unique constraint ensures that duplicate values are not stored in a field that should contain unique data, helping maintain the integrity and consistency of the database.**
+
