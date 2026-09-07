@@ -418,3 +418,29 @@ A navigation property allows an entity to access related data from another entit
 
 **A unique constraint ensures that duplicate values are not stored in a field that should contain unique data, helping maintain the integrity and consistency of the database.**
 
+
+
+**---**
+
+
+
+**### Question 17**
+
+
+
+**\*\*Question:\*\***  
+
+**What is the main purpose of using `try...catch` in a controller?**
+
+
+
+**\*\*Answer:\*\***  
+
+**B. To catch and handle exceptions**
+
+
+
+**\*\*Explanation:\*\***  
+
+**The `try...catch` statement allows the application to handle errors or exceptions gracefully instead of causing the application to stop unexpectedly.**
+
