@@ -314,3 +314,29 @@ A navigation property allows an entity to access related data from another entit
 
 **The `.Include()` method tells Entity Framework Core to load the related Section data together with the Student records.**
 
+
+
+**---**
+
+
+
+**### Question 13**
+
+
+
+**\*\*Question:\*\***  
+
+**What type of validation happens in the browser before the form is submitted to the server?**
+
+
+
+**\*\*Answer:\*\***  
+
+**B. Client-side validation**
+
+
+
+**\*\*Explanation:\*\***  
+
+**Client-side validation checks the user's input in the browser before the form is sent to the server. It provides immediate feedback when the entered data is invalid.**
+
