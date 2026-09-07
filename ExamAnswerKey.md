@@ -210,3 +210,29 @@ B. It is a foreign key referencing the Section table
 
 SectionId connects each Student record to the Section it belongs to. It serves as a foreign key that references the primary key of the Section table.
 
+
+
+\---
+
+
+
+\### Question 9
+
+
+
+\*\*Question:\*\*  
+
+What is a navigation property in an EF Core entity?
+
+
+
+\*\*Answer:\*\*  
+
+B. A property that represents a relationship to another entity
+
+
+
+\*\*Explanation:\*\*  
+
+A navigation property allows an entity to access related data from another entity. For example, a Student entity can have a Section navigation property to represent its relationship with a Section.
+
