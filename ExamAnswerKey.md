@@ -86,19 +86,49 @@ Entity Framework Core is an ORM that allows .NET objects and classes to work wit
 
 
 
-\*\*Question:\*\*  
+\*\*Question:\*\*
 
 Which EF Core component is primarily responsible for communicating with the database?
 
 
 
-\*\*Answer:\*\*  
+\*\*Answer:\*\*
 
 A. DbContext
 
 
 
-\*\*Explanation:\*\*  
+\*\*Explanation:\*\*
 
 DbContext manages the connection and communication between the application and the database.
+
+
+
+\---
+
+
+
+\### Question 5
+
+
+
+\*\*Question:\*\*  
+
+What does the following command generate?
+
+
+
+`dotnet ef dbcontext scaffold "ConnectionString" Microsoft.EntityFrameworkCore.SqlServer -o Models`
+
+
+
+\*\*Answer:\*\*  
+
+C. EF Core models and a DbContext from an existing database
+
+
+
+\*\*Explanation:\*\*  
+
+The Scaffold-DbContext command reads the existing database structure and automatically generates the entity model classes and DbContext needed by EF Core.
 
