@@ -184,3 +184,29 @@ B. One-to-Many
 
 One Section can have many Students, while each Student belongs to only one Section. This is a One-to-Many relationship.
 
+
+
+\---
+
+
+
+\### Question 8
+
+
+
+\*\*Question:\*\*  
+
+What is the purpose of SectionId in the Student table?
+
+
+
+\*\*Answer:\*\*  
+
+B. It is a foreign key referencing the Section table
+
+
+
+\*\*Explanation:\*\*  
+
+SectionId connects each Student record to the Section it belongs to. It serves as a foreign key that references the primary key of the Section table.
+
