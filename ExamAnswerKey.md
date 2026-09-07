@@ -340,3 +340,29 @@ A navigation property allows an entity to access related data from another entit
 
 **Client-side validation checks the user's input in the browser before the form is sent to the server. It provides immediate feedback when the entered data is invalid.**
 
+
+
+**---**
+
+
+
+**### Question 14**
+
+
+
+**\*\*Question:\*\***  
+
+**Why is server-side validation still necessary even when client-side validation is implemented?**
+
+
+
+**\*\*Answer:\*\***  
+
+**A. Client-side validation can be bypassed**
+
+
+
+**\*\*Explanation:\*\***  
+
+**Client-side validation happens in the user's browser and can be disabled or bypassed. Server-side validation ensures that data is properly validated before it is processed or saved by the application.**
+
