@@ -496,3 +496,29 @@ A navigation property allows an entity to access related data from another entit
 
 **A 404 Not Found response indicates that the requested resource, such as a student record, could not be found.**
 
+
+
+**---**
+
+
+
+**### Question 20**
+
+
+
+**\*\*Question:\*\***  
+
+**What concept is violated when the same student is assigned to the same section more than once?**
+
+
+
+**\*\*Answer:\*\***  
+
+**A. Data integrity**
+
+
+
+**\*\*Explanation:\*\***  
+
+**Data integrity ensures that data remains accurate, consistent, and valid. Preventing duplicate student-section assignments helps maintain the correctness and consistency of the records.**
+
