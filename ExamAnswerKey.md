@@ -262,3 +262,29 @@ A navigation property allows an entity to access related data from another entit
 
 **The `.Include()` method is used to load related navigation properties together with the main entity. For example, it can load the Section data together with Students.**
 
+
+
+**---**
+
+
+
+**### Question 11**
+
+
+
+**\*\*Question:\*\***  
+
+**What is the purpose of a ViewModel in an ASP.NET Core MVC application?**
+
+
+
+**\*\*Answer:\*\***  
+
+**B. To combine and shape data specifically needed by the view**
+
+
+
+**\*\*Explanation:\*\***  
+
+**A ViewModel contains the data and information that a specific view needs. It helps organize and present data without directly exposing the entire entity model.**
+
