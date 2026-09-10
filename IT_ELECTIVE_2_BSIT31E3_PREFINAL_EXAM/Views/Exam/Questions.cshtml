@@ -2,939 +2,1190 @@
     ViewData["Title"] = "Prefinal Examination";
 }
 
-<div class="question-page">
+<div class="exam-page">
 
-    <div class="question-header">
+    <div class="exam-header">
         <span>IT ELECTIVE 2</span>
         <h1>Prefinal Examination</h1>
-        <p id="question-counter">Question 01 of 20</p>
+        <p>Web System and Technologies</p>
+
+        <div class="student-info">
+            Danielle Allyne O. Marcos | BSIT 31E3
+        </div>
     </div>
 
-    <div class="progress-container">
-        <div id="progress-bar" class="progress-bar"></div>
+    <div class="exam-intro">
+        <h2>Question and Answer Review</h2>
+        <p>
+            Review all 20 questions, choices, correct answers, and explanations.
+        </p>
     </div>
 
-    <div class="question-card">
 
-        <div class="question-top">
-            <div class="question-number" id="question-number">
+    <div class="questions-container">
+
+        <!-- QUESTION 01 -->
+        <div class="question-card">
+
+            <div class="question-label">
                 QUESTION 01
             </div>
 
-            <div class="score-display">
-                SCORE: <span id="score">0</span>
+            <h2>
+                What is the main problem solved by using a database instead of
+                an in-memory collection?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>It makes C# code shorter</p>
+                </div>
+
+                <div class="choice">
+                    <span>B</span>
+                    <p>It prevents the application from restarting</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>C</span>
+                    <p>It allows data to persist after the application stops</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>It removes the need for MVC</p>
+                </div>
+
             </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: C</strong>
+                <p>
+                    A database stores data persistently, so information remains
+                    available even after the application stops or restarts.
+                </p>
+            </div>
+
         </div>
 
-        <h2 id="question-text"></h2>
 
-        <div id="choices" class="choices"></div>
+        <!-- QUESTION 02 -->
+        <div class="question-card">
 
-        <button id="submit-btn"
-                class="submit-btn"
-                onclick="submitAnswer()"
-                disabled>
-            SUBMIT ANSWER
-        </button>
+            <div class="question-label">
+                QUESTION 02
+            </div>
 
-        <div id="result-box" class="result-box">
+            <h2>
+                Which approach is being used when an existing database is used
+                to generate EF Core entity classes?
+            </h2>
 
-            <div id="result-title"></div>
+            <div class="choices">
 
-            <h3 id="correct-answer"></h3>
+                <div class="choice">
+                    <span>A</span>
+                    <p>Code-First</p>
+                </div>
 
-            <p id="explanation"></p>
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>Database-First</p>
+                </div>
 
-            <button id="next-btn"
-                    class="next-btn"
-                    onclick="nextQuestion()">
-                NEXT QUESTION →
-            </button>
+                <div class="choice">
+                    <span>C</span>
+                    <p>Model-First</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>Controller-First</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    Database-First starts with an existing database and generates
+                    EF Core entity classes and a DbContext from it.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 03 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 03
+            </div>
+
+            <h2>
+                What is the primary purpose of Entity Framework Core?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>To create HTML pages automatically</p>
+                </div>
+
+                <div class="choice">
+                    <span>B</span>
+                    <p>To replace the MVC Controller</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>C</span>
+                    <p>To map objects in code to relational database data</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>To replace the C# compiler</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: C</strong>
+                <p>
+                    Entity Framework Core is an ORM that allows .NET objects
+                    and classes to work with relational database data.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 04 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 04
+            </div>
+
+            <h2>
+                Which EF Core component is primarily responsible for
+                communicating with the database?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice correct">
+                    <span>A</span>
+                    <p>DbContext</p>
+                </div>
+
+                <div class="choice">
+                    <span>B</span>
+                    <p>DbSetView</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>ControllerContext</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>RazorContext</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: A</strong>
+                <p>
+                    DbContext manages the connection and communication between
+                    the application and the database.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 05 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 05
+            </div>
+
+            <h2>
+                What does the following command primarily do?
+            </h2>
+
+            <pre class="code-box">dotnet ef dbcontext scaffold "ConnectionString"
+Microsoft.EntityFrameworkCore.SqlServer -o Models</pre>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>Deletes the database</p>
+                </div>
+
+                <div class="choice">
+                    <span>B</span>
+                    <p>Creates a new MVC project</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>C</span>
+                    <p>Generates EF Core models and a DbContext from an existing database</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>Starts the MVC application</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: C</strong>
+                <p>
+                    The scaffold command reads an existing database and generates
+                    EF Core entity classes and a DbContext.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 06 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 06
+            </div>
+
+            <h2>
+                Where is a database connection string commonly stored in an
+                ASP.NET Core MVC application?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>Program.cs only</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>appsettings.json</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>Index.cshtml</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>Student.cs</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    Connection strings are commonly stored in appsettings.json
+                    in ASP.NET Core applications.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 07 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 07
+            </div>
+
+            <h2>
+                A Student belongs to exactly one Section, while a Section can
+                contain many students. What type of relationship is this?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>One-to-One</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>One-to-Many</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>Many-to-Many</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>Many-to-One only</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    One Section can have many Students, while each Student
+                    belongs to one Section. This is a one-to-many relationship.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 08 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 08
+            </div>
+
+            <h2>
+                In the following example, what is SectionId?
+            </h2>
+
+            <pre class="code-box">public int SectionId { get; set; }
+
+public Section Section { get; set; }</pre>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>Primary key of Student</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>Foreign key referencing Section</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>Navigation property</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>Database connection string</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    SectionId acts as a foreign key connecting the Student
+                    entity to the related Section entity.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 09 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 09
+            </div>
+
+            <h2>
+                What is the purpose of a navigation property such as
+                public Section Section { get; set; }?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>It stores the database password</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>It represents a relationship to another entity</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>It creates a new database</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>It validates the student's name</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    A navigation property represents a relationship between
+                    entities and allows related data to be accessed.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 10 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 10
+            </div>
+
+            <h2>
+                What does .Include() generally allow EF Core to do?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>Delete the Section table</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>Load related Section data together with Students</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>Create a new Student</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>Validate Student input</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    Include() tells EF Core to load related navigation property
+                    data along with the main entity.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 11 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 11
+            </div>
+
+            <h2>
+                Why might a ViewModel be used when displaying Student and
+                Section information?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>To replace the database</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>To combine or shape the data specifically needed by the view</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>To automatically create database tables</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>To prevent controllers from using LINQ</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    A ViewModel allows the application to provide the view with
+                    only the data and structure it needs.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 12 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 12
+            </div>
+
+            <h2>
+                Consider this query:
+            </h2>
+
+            <pre class="code-box">var students = _context.Students
+    .Include(s => s.Section)
+    .ToList();</pre>
+
+            <h2>
+                What is the main benefit of Include(s => s.Section)?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice correct">
+                    <span>A</span>
+                    <p>It loads the related Section navigation property</p>
+                </div>
+
+                <div class="choice">
+                    <span>B</span>
+                    <p>It creates a Section object manually</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>It removes the foreign key</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>It prevents the query from accessing the database</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: A</strong>
+                <p>
+                    Include(s => s.Section) loads the related Section data
+                    together with the Student records.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 13 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 13
+            </div>
+
+            <h2>
+                Which type of validation occurs in the browser before a
+                request is sent to the server?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>Database-level validation</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>Client-side validation</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>Server-side validation</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>EF Core migration validation</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    Client-side validation occurs in the browser before the
+                    form is submitted to the server.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 14 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 14
+            </div>
+
+            <h2>
+                Why is server-side validation still necessary if client-side
+                validation exists?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice correct">
+                    <span>A</span>
+                    <p>Client-side validation can be bypassed</p>
+                </div>
+
+                <div class="choice">
+                    <span>B</span>
+                    <p>Client-side validation automatically modifies the database</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>Server-side validation only works with SQLite</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>Client-side validation cannot display messages</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: A</strong>
+                <p>
+                    Client-side validation can be bypassed, so server-side
+                    validation is needed to protect the application and data.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 15 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 15
+            </div>
+
+            <h2>
+                A school requires every student to have a unique Student
+                Number. Which rule best represents this requirement?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>Student Number should always be nullable</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>Student Number should be unique</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>Student Number should always be the same</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>Student Number should contain only spaces</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    A unique constraint ensures that no two students use the
+                    same Student Number.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 16 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 16
+            </div>
+
+            <h2>
+                Which is the best reason for having a database-level unique
+                constraint on StudentNumber?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice correct">
+                    <span>A</span>
+                    <p>It protects data integrity even if application-level validation is bypassed</p>
+                </div>
+
+                <div class="choice">
+                    <span>B</span>
+                    <p>It makes Razor Views render faster</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>It removes the need for a Controller</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>It automatically creates a ViewModel</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: A</strong>
+                <p>
+                    A database-level constraint provides an additional layer
+                    of protection for data integrity.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 17 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 17
+            </div>
+
+            <h2>
+                What is the purpose of a try...catch block in a controller?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>To create navigation properties</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>To catch and handle exceptions that may occur during execution</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>To generate database tables</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>To perform client-side validation</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    A try...catch block allows the application to catch and
+                    handle exceptions instead of allowing them to crash the request.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 18 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 18
+            </div>
+
+            <h2>
+                Which middleware is commonly used in ASP.NET Core for
+                centralized exception handling?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>UseDatabase()</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>UseExceptionHandler()</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>UseValidationHandler()</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>UseMvcDatabase()</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    UseExceptionHandler() is commonly used for centralized
+                    exception handling in ASP.NET Core.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 19 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 19
+            </div>
+
+            <h2>
+                A user requests /Student/999, but Student 999 does not exist.
+                What would be the most appropriate response?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span>A</span>
+                    <p>Display the student's information anyway</p>
+                </div>
+
+                <div class="choice correct">
+                    <span>B</span>
+                    <p>Display a Not Found (404) response/page</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>Delete Student 999</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>Create Student 999 automatically</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: B</strong>
+                <p>
+                    When a requested resource does not exist, the appropriate
+                    HTTP response is Not Found, or 404.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- QUESTION 20 -->
+        <div class="question-card">
+
+            <div class="question-label">
+                QUESTION 20
+            </div>
+
+            <h2>
+                A student already belongs to Section A for a particular
+                subject. The application attempts to assign the same student
+                to Section A again. What is the primary concern?
+            </h2>
+
+            <div class="choices">
+
+                <div class="choice correct">
+                    <span>A</span>
+                    <p>Data integrity</p>
+                </div>
+
+                <div class="choice">
+                    <span>B</span>
+                    <p>HTML formatting</p>
+                </div>
+
+                <div class="choice">
+                    <span>C</span>
+                    <p>CSS inheritance</p>
+                </div>
+
+                <div class="choice">
+                    <span>D</span>
+                    <p>Razor syntax</p>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>✓ Correct Answer: A</strong>
+                <p>
+                    Preventing duplicate assignments protects the correctness
+                    and integrity of the application's data.
+                </p>
+            </div>
 
         </div>
 
     </div>
 
-    <div class="student-footer">
-        Danielle-Allyne Marcos | BSIT 31E3
+
+    <div class="exam-footer">
+        <p>IT Elective 2 | Prefinal Examination</p>
+        <span>Danielle Allyne O. Marcos | BSIT 31E3</span>
     </div>
 
 </div>
 
 
-<script>
-
-    const questions = [
-
-        {
-            question: "What is the main problem solved by using a database instead of an in-memory collection?",
-            choices: [
-                "It makes C# code shorter",
-                "It prevents the application from restarting",
-                "It allows data to persist after the application stops",
-                "It removes the need for MVC"
-            ],
-            answer: 2,
-            explanation: "A database stores data persistently, so information remains available even after the application stops or restarts."
-        },
-
-        {
-            question: "Which approach is being used when an existing database is used to generate EF Core entity classes?",
-            choices: [
-                "Code-First",
-                "Database-First",
-                "Model-First",
-                "Controller-First"
-            ],
-            answer: 1,
-            explanation: "Database-First starts with an existing database and generates EF Core entity classes and a DbContext from it."
-        },
-
-        {
-            question: "What is the primary purpose of Entity Framework Core?",
-            choices: [
-                "To create HTML pages automatically",
-                "To replace the MVC Controller",
-                "To map objects in code to relational database data",
-                "To replace the C# compiler"
-            ],
-            answer: 2,
-            explanation: "Entity Framework Core is an ORM that allows .NET objects and classes to work with relational database data."
-        },
-
-        {
-            question: "Which EF Core component is primarily responsible for communicating with the database?",
-            choices: [
-                "DbContext",
-                "DbSetView",
-                "ControllerContext",
-                "RazorContext"
-            ],
-            answer: 0,
-            explanation: "DbContext manages the connection and communication between the application and the database."
-        },
-
-        {
-            question: "What does the following command primarily do? dotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models",
-            choices: [
-                "Deletes the database",
-                "Creates a new MVC project",
-                "Generates EF Core models and a DbContext from an existing database",
-                "Starts the MVC application"
-            ],
-            answer: 2,
-            explanation: "The scaffold command reads an existing database and generates EF Core entity classes and a DbContext."
-        },
-
-        {
-            question: "Where is a database connection string commonly stored in an ASP.NET Core MVC application?",
-            choices: [
-                "Program.cs only",
-                "appsettings.json",
-                "Index.cshtml",
-                "Student.cs"
-            ],
-            answer: 1,
-            explanation: "Connection strings are commonly stored in appsettings.json in ASP.NET Core applications."
-        },
-
-        {
-            question: "A Student belongs to exactly one Section, while a Section can contain many students. What type of relationship is this?",
-            choices: [
-                "One-to-One",
-                "One-to-Many",
-                "Many-to-Many",
-                "Many-to-One only"
-            ],
-            answer: 1,
-            explanation: "One Section can have many Students, while each Student belongs to one Section. This is a one-to-many relationship."
-        },
-
-        {
-            question: "In the following example, what is SectionId? public int SectionId { get; set; } public Section Section { get; set; }",
-            choices: [
-                "Primary key of Student",
-                "Foreign key referencing Section",
-                "Navigation property",
-                "Database connection string"
-            ],
-            answer: 1,
-            explanation: "SectionId acts as a foreign key connecting the Student entity to the related Section entity."
-        },
-
-        {
-            question: "What is the purpose of a navigation property such as public Section Section { get; set; }?",
-            choices: [
-                "It stores the database password",
-                "It represents a relationship to another entity",
-                "It creates a new database",
-                "It validates the student's name"
-            ],
-            answer: 1,
-            explanation: "A navigation property represents a relationship between entities and allows related data to be accessed."
-        },
-
-        {
-            question: "What does .Include() generally allow EF Core to do?",
-            choices: [
-                "Delete the Section table",
-                "Load related Section data together with Students",
-                "Create a new Student",
-                "Validate Student input"
-            ],
-            answer: 1,
-            explanation: "Include() tells EF Core to load related navigation property data along with the main entity."
-        },
-
-        {
-            question: "Why might a ViewModel be used when displaying Student and Section information?",
-            choices: [
-                "To replace the database",
-                "To combine or shape the data specifically needed by the view",
-                "To automatically create database tables",
-                "To prevent controllers from using LINQ"
-            ],
-            answer: 1,
-            explanation: "A ViewModel allows the application to provide the view with only the data and structure it needs."
-        },
-
-        {
-            question: "Consider this query: var students = _context.Students.Include(s => s.Section).ToList(); What is the main benefit of Include(s => s.Section)?",
-            choices: [
-                "It loads the related Section navigation property",
-                "It creates a Section object manually",
-                "It removes the foreign key",
-                "It prevents the query from accessing the database"
-            ],
-            answer: 0,
-            explanation: "Include(s => s.Section) loads the related Section data together with the Student records."
-        },
-
-        {
-            question: "Which type of validation occurs in the browser before a request is sent to the server?",
-            choices: [
-                "Database-level validation",
-                "Client-side validation",
-                "Server-side validation",
-                "EF Core migration validation"
-            ],
-            answer: 1,
-            explanation: "Client-side validation occurs in the browser before the form is submitted to the server."
-        },
-
-        {
-            question: "Why is server-side validation still necessary if client-side validation exists?",
-            choices: [
-                "Client-side validation can be bypassed",
-                "Client-side validation automatically modifies the database",
-                "Server-side validation only works with SQLite",
-                "Client-side validation cannot display messages"
-            ],
-            answer: 0,
-            explanation: "Client-side validation can be bypassed, so server-side validation is needed to protect the application and data."
-        },
-
-        {
-            question: "A school requires every student to have a unique Student Number. Which rule best represents this requirement?",
-            choices: [
-                "Student Number should always be nullable",
-                "Student Number should be unique",
-                "Student Number should always be the same",
-                "Student Number should contain only spaces"
-            ],
-            answer: 1,
-            explanation: "A unique constraint ensures that no two students use the same Student Number."
-        },
-
-        {
-            question: "Which is the best reason for having a database-level unique constraint on StudentNumber?",
-            choices: [
-                "It protects data integrity even if application-level validation is bypassed",
-                "It makes Razor Views render faster",
-                "It removes the need for a Controller",
-                "It automatically creates a ViewModel"
-            ],
-            answer: 0,
-            explanation: "A database-level constraint provides an additional layer of protection for data integrity."
-        },
-
-        {
-            question: "What is the purpose of a try...catch block in a controller?",
-            choices: [
-                "To create navigation properties",
-                "To catch and handle exceptions that may occur during execution",
-                "To generate database tables",
-                "To perform client-side validation"
-            ],
-            answer: 1,
-            explanation: "A try...catch block allows the application to catch and handle exceptions instead of allowing them to crash the request."
-        },
-
-        {
-            question: "Which middleware is commonly used in ASP.NET Core for centralized exception handling?",
-            choices: [
-                "UseDatabase()",
-                "UseExceptionHandler()",
-                "UseValidationHandler()",
-                "UseMvcDatabase()"
-            ],
-            answer: 1,
-            explanation: "UseExceptionHandler() is commonly used for centralized exception handling in ASP.NET Core."
-        },
-
-        {
-            question: "A user requests /Student/999, but Student 999 does not exist. What would be the most appropriate response?",
-            choices: [
-                "Display the student's information anyway",
-                "Display a Not Found (404) response/page",
-                "Delete Student 999",
-                "Create Student 999 automatically"
-            ],
-            answer: 1,
-            explanation: "When a requested resource does not exist, the appropriate HTTP response is Not Found, or 404."
-        },
-
-        {
-            question: "A student already belongs to Section A for a particular subject. The application attempts to assign the same student to Section A again. What is the primary concern?",
-            choices: [
-                "Data integrity",
-                "HTML formatting",
-                "CSS inheritance",
-                "Razor syntax"
-            ],
-            answer: 0,
-            explanation: "Preventing duplicate assignments protects the correctness and integrity of the application's data."
-        }
-
-    ];
-
-
-    let currentQuestion = 0;
-    let selectedAnswer = null;
-    let score = 0;
-    let submitted = false;
-
-
-    function loadQuestion() {
-
-        const question = questions[currentQuestion];
-
-        selectedAnswer = null;
-        submitted = false;
-
-        document.getElementById("question-number").textContent =
-            "QUESTION " + String(currentQuestion + 1).padStart(2, "0");
-
-        document.getElementById("question-counter").textContent =
-            "Question " + String(currentQuestion + 1).padStart(2, "0") + " of 20";
-
-        document.getElementById("question-text").textContent =
-            question.question;
-
-        const choicesContainer = document.getElementById("choices");
-
-        choicesContainer.innerHTML = "";
-
-        question.choices.forEach(function (choice, index) {
-
-            const button = document.createElement("button");
-
-            button.type = "button";
-            button.className = "choice";
-
-            button.innerHTML =
-                "<span>" +
-                String.fromCharCode(65 + index) +
-                "</span>" +
-                "<p>" +
-                choice +
-                "</p>";
-
-            button.onclick = function () {
-                selectAnswer(button, index);
-            };
-
-            choicesContainer.appendChild(button);
-
-        });
-
-
-        document.getElementById("submit-btn").disabled = true;
-        document.getElementById("submit-btn").style.display = "block";
-
-        document.getElementById("result-box").classList.remove("show");
-
-        const progress =
-            ((currentQuestion + 1) / questions.length) * 100;
-
-        document.getElementById("progress-bar").style.width =
-            progress + "%";
-
-        if (currentQuestion === questions.length - 1) {
-
-            document.getElementById("next-btn").textContent =
-                "VIEW FINAL SCORE →";
-
-        }
-        else {
-
-            document.getElementById("next-btn").textContent =
-                "NEXT QUESTION →";
-
-        }
-
-    }
-
-
-    function selectAnswer(button, answerIndex) {
-
-        if (submitted) {
-            return;
-        }
-
-        const choices = document.querySelectorAll(".choice");
-
-        choices.forEach(function (choice) {
-            choice.classList.remove("selected");
-        });
-
-        button.classList.add("selected");
-
-        selectedAnswer = answerIndex;
-
-        document.getElementById("submit-btn").disabled = false;
-    }
-
-
-    function submitAnswer() {
-
-        if (selectedAnswer === null || submitted) {
-            return;
-        }
-
-        submitted = true;
-
-        const question = questions[currentQuestion];
-
-        const choices = document.querySelectorAll(".choice");
-
-        choices.forEach(function (choice) {
-            choice.disabled = true;
-        });
-
-        const selectedChoice = choices[selectedAnswer];
-
-        if (selectedAnswer === question.answer) {
-
-            score++;
-
-            selectedChoice.classList.remove("selected");
-            selectedChoice.classList.add("selected-correct");
-
-            document.getElementById("result-title").textContent =
-                "✓ CORRECT ANSWER";
-
-            document.getElementById("result-title").className =
-                "correct-result";
-
-        }
-        else {
-
-            selectedChoice.classList.remove("selected");
-            selectedChoice.classList.add("selected-wrong");
-
-            choices[question.answer].classList.add("correct-answer");
-
-            document.getElementById("result-title").textContent =
-                "✕ INCORRECT ANSWER";
-
-            document.getElementById("result-title").className =
-                "wrong-result";
-
-        }
-
-
-        document.getElementById("score").textContent = score;
-
-        document.getElementById("correct-answer").textContent =
-            "Correct Answer: " +
-            String.fromCharCode(65 + question.answer);
-
-        document.getElementById("explanation").textContent =
-            question.explanation;
-
-        document.getElementById("result-box").classList.add("show");
-
-        document.getElementById("submit-btn").style.display = "none";
-    }
-
-
-    function nextQuestion() {
-
-        if (!submitted) {
-            return;
-        }
-
-        if (currentQuestion === questions.length - 1) {
-
-            showFinalScore();
-
-            return;
-        }
-
-        currentQuestion++;
-
-        loadQuestion();
-
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-
-    }
-
-
-    function showFinalScore() {
-
-        const percentage =
-            Math.round((score / questions.length) * 100);
-
-        document.querySelector(".question-card").innerHTML = `
-
-            <div class="final-score">
-
-                <div class="final-icon">
-                    ✓
-                </div>
-
-                <div class="question-number">
-                    EXAM COMPLETED
-                </div>
-
-                <h2>
-                    Congratulations, Danielle-Allyne!
-                </h2>
-
-                <p class="final-message">
-                    You have completed all 20 questions.
-                </p>
-
-                <div class="score-circle">
-                    <strong>${score}</strong>
-                    <span>/ 20</span>
-                </div>
-
-                <div class="percentage">
-                    ${percentage}%
-                </div>
-
-                <p class="final-message">
-                    Thank you for completing the IT Elective 2
-                    Prefinal Examination.
-                </p>
-
-                <button class="next-btn"
-                        onclick="location.reload()">
-                    RETAKE EXAM ↻
-                </button>
-
-            </div>
-
-        `;
-
-    }
-
-
-    loadQuestion();
-
-</script>
-
-
 <style>
 
-    .question-page {
+    * {
+        box-sizing: border-box;
+    }
+
+    .exam-page {
         min-height: 100vh;
-        padding: 45px 20px;
-        background: #f5f7fb;
+        margin: -24px;
+        padding-bottom: 60px;
+        background: #f4f6fb;
         color: #172033;
     }
 
-
-    .question-header {
-        max-width: 850px;
-        margin: auto;
+    .exam-header {
+        padding: 70px 20px 60px;
         text-align: center;
+        color: white;
+        background:
+            radial-gradient(circle at top left, #6675e8 0, transparent 35%),
+            radial-gradient(circle at bottom right, #9b5de5 0, transparent 35%),
+            linear-gradient(135deg, #111827, #273469);
     }
 
-
-        .question-header span {
-            font-size: 12px;
-            font-weight: 800;
-            letter-spacing: 3px;
-            color: #6675e8;
-        }
-
-
-        .question-header h1 {
-            margin: 10px 0 5px;
-            font-size: 42px;
-            font-weight: 800;
-        }
-
-
-        .question-header p {
-            color: #687386;
-        }
-
-
-    .progress-container {
-        max-width: 850px;
-        height: 8px;
-        margin: 30px auto;
-        overflow: hidden;
-        border-radius: 20px;
-        background: #e1e5ed;
-    }
-
-
-    .progress-bar {
-        width: 5%;
-        height: 100%;
-        border-radius: 20px;
-        background: #6675e8;
-        transition: .4s;
-    }
-
-
-    .question-card {
-        max-width: 850px;
-        margin: 35px auto;
-        padding: 45px;
-        border-radius: 25px;
-        background: white;
-        box-shadow: 0 15px 40px rgba(20, 30, 60, .08);
-    }
-
-
-    .question-top {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 18px;
-    }
-
-
-    .question-number {
+    .exam-header > span {
         font-size: 13px;
         font-weight: 800;
-        letter-spacing: 2px;
-        color: #6675e8;
+        letter-spacing: 4px;
     }
 
-
-    .score-display {
-        padding: 8px 14px;
-        border-radius: 20px;
-        background: #f0f1ff;
-        color: #6675e8;
-        font-size: 12px;
+    .exam-header h1 {
+        margin: 12px 0 8px;
+        font-size: 48px;
         font-weight: 800;
     }
 
-
-    .question-card h2 {
-        margin-bottom: 35px;
-        font-size: 27px;
-        line-height: 1.5;
-    }
-
-
-    .choices {
-        display: grid;
-        gap: 14px;
-    }
-
-
-    .choice {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        gap: 18px;
-        padding: 18px;
-        border: 2px solid #edf0f5;
-        border-radius: 15px;
-        background: white;
-        text-align: left;
-        cursor: pointer;
-        transition: .2s;
-    }
-
-
-        .choice:hover:not(:disabled) {
-            transform: translateX(5px);
-            border-color: #6675e8;
-            background: #f8f8ff;
-        }
-
-
-        .choice span {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-width: 38px;
-            height: 38px;
-            border-radius: 50%;
-            background: #eef0ff;
-            color: #6675e8;
-            font-weight: 800;
-        }
-
-
-        .choice p {
-            margin: 0;
-            color: #424b5c;
-            font-size: 15px;
-            line-height: 1.5;
-        }
-
-
-        .choice.selected {
-            border-color: #6675e8;
-            background: #f0f1ff;
-            transform: translateX(5px);
-        }
-
-
-            .choice.selected span {
-                background: #6675e8;
-                color: white;
-            }
-
-
-        .choice.selected-correct {
-            border-color: #22a06b;
-            background: #ecfdf5;
-        }
-
-
-            .choice.selected-correct span {
-                background: #22a06b;
-                color: white;
-            }
-
-
-        .choice.selected-wrong {
-            border-color: #dc3545;
-            background: #fff1f2;
-        }
-
-
-            .choice.selected-wrong span {
-                background: #dc3545;
-                color: white;
-            }
-
-
-        .choice.correct-answer {
-            border-color: #22a06b;
-            background: #ecfdf5;
-        }
-
-
-            .choice.correct-answer span {
-                background: #22a06b;
-                color: white;
-            }
-
-
-        .choice:disabled {
-            cursor: default;
-        }
-
-
-    .submit-btn {
-        width: 100%;
-        margin-top: 25px;
-        padding: 16px;
-        border: none;
-        border-radius: 14px;
-        background: #6675e8;
-        color: white;
-        font-size: 14px;
-        font-weight: 800;
-        letter-spacing: 1px;
-        cursor: pointer;
-        transition: .2s;
-    }
-
-
-        .submit-btn:hover:not(:disabled) {
-            background: #5362d4;
-            transform: translateY(-2px);
-        }
-
-
-        .submit-btn:disabled {
-            opacity: .45;
-            cursor: not-allowed;
-        }
-
-
-    .result-box {
-        display: none;
-        margin-top: 30px;
-        padding: 25px;
-        border-radius: 18px;
-        background: #f3f4ff;
-    }
-
-
-        .result-box.show {
-            display: block;
-        }
-
-
-    #result-title {
-        font-size: 12px;
-        font-weight: 800;
-        letter-spacing: 2px;
-    }
-
-
-    .correct-result {
-        color: #16865a;
-    }
-
-
-    .wrong-result {
-        color: #dc3545;
-    }
-
-
-    .result-box h3 {
-        margin: 10px 0;
+    .exam-header p {
+        margin: 0;
+        color: #dbe4ff;
         font-size: 18px;
     }
 
-
-    .result-box p {
-        margin: 0;
-        line-height: 1.7;
-        color: #5f6878;
-    }
-
-
-    .next-btn {
-        width: 100%;
+    .student-info {
         margin-top: 25px;
-        padding: 15px;
-        border: none;
-        border-radius: 14px;
-        background: #172033;
-        color: white;
         font-size: 14px;
-        font-weight: 800;
-        cursor: pointer;
-        transition: .2s;
+        color: #e5e7eb;
     }
 
-
-        .next-btn:hover {
-            background: #6675e8;
-            transform: translateY(-2px);
-        }
-
-
-    .student-footer {
+    .exam-intro {
+        max-width: 900px;
+        margin: 45px auto 30px;
+        padding: 0 25px;
         text-align: center;
-        color: #7b8494;
+    }
+
+    .exam-intro h2 {
+        margin-bottom: 8px;
+        font-size: 32px;
+    }
+
+    .exam-intro p {
+        color: #687386;
+        font-size: 16px;
+    }
+
+    .questions-container {
+        max-width: 900px;
+        margin: auto;
+        padding: 0 20px;
+    }
+
+    .question-card {
+        margin-bottom: 30px;
+        padding: 35px;
+        border: 1px solid #e5e8ef;
+        border-radius: 24px;
+        background: white;
+        box-shadow: 0 12px 35px rgba(20, 30, 60, .07);
+    }
+
+    .question-label {
+        display: inline-block;
+        margin-bottom: 18px;
+        color: #6675e8;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 3px;
+    }
+
+    .question-card h2 {
+        margin: 0 0 25px;
+        font-size: 22px;
+        line-height: 1.55;
+    }
+
+    .choices {
+        display: grid;
+        gap: 12px;
+    }
+
+    .choice {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+        border: 2px solid #edf0f5;
+        border-radius: 14px;
+        background: #fff;
+    }
+
+    .choice span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: #eef0ff;
+        color: #6675e8;
+        font-weight: 800;
+    }
+
+    .choice p {
+        margin: 0;
+        color: #424b5c;
+        line-height: 1.5;
+    }
+
+    .choice.correct {
+        border-color: #22a06b;
+        background: #ecfdf5;
+    }
+
+    .choice.correct span {
+        background: #22a06b;
+        color: white;
+    }
+
+    .answer-box {
+        margin-top: 25px;
+        padding: 20px;
+        border-left: 5px solid #22a06b;
+        border-radius: 12px;
+        background: #f0fdf7;
+    }
+
+    .answer-box strong {
+        color: #16865a;
+        font-size: 15px;
+    }
+
+    .answer-box p {
+        margin: 8px 0 0;
+        color: #596577;
+        line-height: 1.7;
+    }
+
+    .code-box {
+        margin: 0 0 25px;
+        padding: 18px;
+        overflow-x: auto;
+        border-radius: 12px;
+        background: #111827;
+        color: #e5e7eb;
+        font-family: Consolas, monospace;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .exam-footer {
+        margin-top: 50px;
+        text-align: center;
+        color: #687386;
         font-size: 13px;
     }
 
-
-    .final-score {
-        text-align: center;
+    .exam-footer p {
+        margin-bottom: 5px;
     }
-
-
-        .final-score h2 {
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-
-
-    .final-icon {
-        width: 80px;
-        height: 80px;
-        margin: 0 auto 25px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        background: #ecfdf5;
-        color: #22a06b;
-        font-size: 40px;
-        font-weight: 800;
-    }
-
-
-    .score-circle {
-        width: 150px;
-        height: 150px;
-        margin: 30px auto 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        border-radius: 50%;
-        background: #f0f1ff;
-        border: 8px solid #6675e8;
-    }
-
-
-        .score-circle strong {
-            font-size: 45px;
-            color: #6675e8;
-        }
-
-
-        .score-circle span {
-            color: #687386;
-            font-weight: 700;
-        }
-
-
-    .percentage {
-        font-size: 28px;
-        font-weight: 800;
-        color: #172033;
-    }
-
-
-    .final-message {
-        color: #687386;
-        line-height: 1.7;
-    }
-
 
     @@media (max-width: 700px) {
+
+        .exam-header {
+            padding: 50px 20px;
+        }
+
+        .exam-header h1 {
+            font-size: 36px;
+        }
 
         .question-card {
             padding: 25px;
         }
 
-        .question-header h1 {
-            font-size: 32px;
-        }
-
         .question-card h2 {
-            font-size: 22px;
+            font-size: 19px;
         }
 
-        .question-top {
+        .choice {
             align-items: flex-start;
-            gap: 10px;
         }
+
     }
 
 </style>
